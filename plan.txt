@@ -1,0 +1,118 @@
+Break and Continue
+-break gives us an ability to stop the loop at the given condition(for ex: if u do (if(i===5)) in the loop, the loop is gonna stop after reaching 5 even if the request is lets say i<10. basically a pause)
+-contunue skips the given number (for ex: (if(i===5)) the loop is going to work but it will skip 5)
+
+Switch case
+-its a way to choose one option out of many, based on the value of a variable
+-"switch" is like a menu of choices
+-"case" is one of the options
+-its used with "break" so that it gives us one answer instead of running all of them
+-"default" is for when none of the cases match the given answers, its basically like "else" in the if-else
+
+String Methods
+the function inside the object is called method
+-"length" gives us the amount of the signs of all the length
+-"slice" gives us the slice that we demand of a certain text(ex:console.log(str.slice(0, 4)); will give you the first 4 signs of your text, from 0 to , bcz index is counted from 0 and overall its 4) 
+if you give it a single number, its gonna give you the signs of ur text that are after that number(if you give two numbers its gonna give you a part of the text between these two numbers, as mentioned before)
+if you give it a negative number, its gonna count from the end and give you the signs starting from the end(for ex: if u give -2 its gonna give you the last 2 letters of your text)
+also there cant be two negative numbers here, you can only give it one negative number and its gonna count from the end as already mentioned
+
+Substring
+almost the same as the methods, but here you cant take a negative number
+console.log(str.substring(0, 4)) will give you the signs starting from 0 till 4
+console.log(str.substring(5)) will give the signs counting till 5
+
+Replace
+we can change any parts of string typed words to other string typed words, ex:
+let str= "some word"
+console.log(str.replace("word", "letter")) and it will change the word "word" to a word "letter"
+
+Concat 
+it can add string typed words to each others and come up with a new word, basically just adding words to each other
+
+Trim
+it cuts the spaces in the start and in the end of the text if theres left any
+trim- console.log(str.trim().length)- for both start and the end
+trimStart- console.log(str.trimStart().length)-only for the start
+trimEnd- console.log(str.trimEnd().length)-only for the the end
+
+CharAt
+gives you the demanded sign from your text, basically "n"th, for ex:
+console.log(str.CharAt(0)) will give you your first letter (or whatever sign you have first in your text)
+the alternative of this thing are square arrays[], ex:
+consile.log(str[0]); works the same
+
+CharCodeAt
+there is a table called "ascii" table where all the numbers of any letters are shown and when doing the equation, the numbers of certain letters or signs do not match, the answer's gonna be wrong
+it gives you the number from that table of the letter or sign that you give, for ex:
+console.log(str.CharCodeAt(0)), lets say the 1st letter is Q, so the answer will be 81, bcz Q=81 according to the table
+
+Split
+it breaks a string into pieces and puts them into array, based on a separator(what you use to cut the string) you chose. for ex:
+console.log(str.split("")) will give you all the letters taken in the array, you also can limit it
+if you do split("a") its gonna take all the letters into the string instead of the "a"
+
+Search
+it returns you the index of the letter or a sign that you want, if there is no such thing you requestend, its gonna show u -1.
+
+Include
+its gonna respond you with true or false based on if you have the thing you are asking for or not
+
+IndexOf and LastIndexOf
+IndexOf is the same with search
+LastIndexOf is also almost the same but it counts from the end
+
+
+
+Math Objects
+
+Math.round()
+it rounds up a number with dot to the closest one of it and that will be an answer, for ex:
+Math.round(2.9) is gonna be 3 because its closer to 3
+Math.round(2.2) is gonna be 2 because its closer to 2
+
+Math.ceil
+Rounds up to the ceiling(higher number)
+
+Math.Floor
+Rounds up to floor(lower number)
+
+Math.trunc
+removes the numbers after the dots and gives the numer itself
+
+Math.sign
+gives 1 if the number if positive
+gives -1 if the number is negative
+gives 0 if the number is 0
+fives NaN if the number is NaN
+gives 1 if true
+gives 0 if false
+
+Math.pow
+calculates the power that u give to a number for ex:
+Math.pow(2, 3) the answer is 8
+Math.pow(5, 2) the number is 25
+
+Math.sqrt()
+gives the square root of a number, for ex:
+Math.sqrt(25) is gonna be 5
+Math.sqrt(9) is gonna be 3
+
+Math.abs
+gives you only positive numbers even if you give negative, turns negative numbers to positive, for ex:
+Math.abs(-10) is gonna be 10
+Math.abs(2) is gonna be 2
+
+Math.min 
+gives you the smallest number from all you gave
+
+Math.max
+gives you the biggest number from all you gave
+
+Math.random
+gives you a random number, ex:
+Math.random() itself will give you any random number from 0 to 1
+Math.round(Math.random() *100) will give you any random number from 0 to 100, math.round is added here so that all the numbers it gives us are rounded up
+
+
+
