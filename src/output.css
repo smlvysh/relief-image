@@ -208,6 +208,15 @@
   .mt-\[300px\] {
     margin-top: 300px;
   }
+  .mb-\[100\] {
+    margin-bottom: 100;
+  }
+  .mb-\[100p\] {
+    margin-bottom: 100p;
+  }
+  .mb-\[100px\] {
+    margin-bottom: 100px;
+  }
   .ml-\[250px\] {
     margin-left: 250px;
   }
@@ -385,6 +394,9 @@
   .items-center {
     align-items: center;
   }
+  .items-end {
+    align-items: flex-end;
+  }
   .items-start {
     align-items: flex-start;
   }
@@ -402,6 +414,9 @@
   }
   .gap-\[0px\] {
     gap: 0px;
+  }
+  .gap-\[1px\] {
+    gap: 1px;
   }
   .gap-\[5px\] {
     gap: 5px;
@@ -463,6 +478,9 @@
     @supports (color: color-mix(in lab, red, red)) {
       border-color: color-mix(in oklab, var(--color-white) 30%, transparent);
     }
+  }
+  .bg-\[\#5a554d\] {
+    background-color: #5a554d;
   }
   .bg-\[\#25491f\] {
     background-color: #25491f;
@@ -533,6 +551,9 @@
   .bg-cover {
     background-size: cover;
   }
+  .bg-bottom {
+    background-position: bottom;
+  }
   .bg-center {
     background-position: center;
   }
@@ -563,6 +584,9 @@
   .py-\[50px\] {
     padding-block: 50px;
   }
+  .py-\[100px\] {
+    padding-block: 100px;
+  }
   .pt-\[20px\] {
     padding-top: 20px;
   }
@@ -571,6 +595,9 @@
   }
   .pt-\[50px\] {
     padding-top: 50px;
+  }
+  .pt-\[100px\] {
+    padding-top: 100px;
   }
   .pt-\[150px\] {
     padding-top: 150px;
@@ -633,6 +660,9 @@
   .text-\[1\] {
     color: 1;
   }
+  .text-\[14\] {
+    color: 14;
+  }
   .text-\[300\] {
     color: 300;
   }
@@ -644,6 +674,9 @@
   }
   .text-\[red\] {
     color: red;
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .capitalize {
     text-transform: capitalize;
@@ -764,6 +797,16 @@
       flex-wrap: wrap;
     }
   }
+  .max-md\:flex {
+    @media (width < 48rem) {
+      display: flex;
+    }
+  }
+  .max-md\:flex-wrap {
+    @media (width < 48rem) {
+      flex-wrap: wrap;
+    }
+  }
   .max-sm\:flex-col {
     @media (width < 40rem) {
       flex-direction: column;
@@ -772,6 +815,11 @@
   .max-sm\:flex-row {
     @media (width < 40rem) {
       flex-direction: row;
+    }
+  }
+  .max-sm\:flex-wrap {
+    @media (width < 40rem) {
+      flex-wrap: wrap;
     }
   }
   .max-sm\:pt-\[20px\] {
@@ -807,6 +855,11 @@
   .xl\:hidden {
     @media (width >= 80rem) {
       display: none;
+    }
+  }
+  .xl\:flex-wrap {
+    @media (width >= 80rem) {
+      flex-wrap: wrap;
     }
   }
 }
