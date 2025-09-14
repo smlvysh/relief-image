@@ -1,56 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Relief Image</title>
-    <link rel="stylesheet" href="./src/output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-<header class=" fixed top-0 left-0 w-full z-50 bg-[rgba(37,73,31,0.31)] backdrop-blur-md">
-    <div class="container1">
-        <div class="flex items-center justify-between py-[10px] ">
-            <div class="block xl:hidden">
-            <i class="fa-solid fa-bar"></i></div>
-                <ul class="flex items-center justify-center gap-[100px] font-[300] text-[16px] capitalize text-[#fff] max-xl:hidden">
-                    <li><a href="#">О компании</a></li>
-                      <li><a href="#">Проекты</a></li>
-                        <li><a href="#">Уход за садом</a></li>
-                          <li><a href="#">Ландшафт</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                </ul>
-            
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header
+      class="fixed top-0 left-0 w-full z-50 bg-[rgba(37,73,31,0.31)] backdrop-blur-md"
+    >
+      <div class="container1">
+        <div class="flex items-center justify-between py-[10px]">
+          <div class="block xl:hidden">
+            <i class="fa-solid fa-bar"></i>
+          </div>
+          <ul
+            class="flex items-center justify-center gap-[100px] font-[300] text-[16px] capitalize text-[#fff] max-xl:hidden"
+          >
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Проекты</a></li>
+            <li><a href="#">Уход за садом</a></li>
+            <li><a href="#">Ландшафт</a></li>
+            <li><a href="#">Отзывы</a></li>
+          </ul>
 
-            
-             <ul class="text-[16px] font-[300] text-[#ffdf9e] flex flex-col items-start justify-center">
-                <li><a href="tel" class="flex items-center justify-center gap-[20px]"><img src="./img/phone.svg" alt="">тел.+7 (981) 98-50-04</a></li>
-                <li><a href="#" class="flex items-center justify-center gap-[20px]"><img src="./img/location.svg" alt="">Санкт-Петербург и ЛО</a></li>
-             </ul>
-           
+          <ul
+            class="text-[16px] font-[300] text-[#ffdf9e] flex flex-col items-start justify-center"
+          >
+            <li>
+              <a href="tel" class="flex items-center justify-center gap-[20px]"
+                ><img src="./img/phone.svg" alt="" />тел.+7 (981) 98-50-04</a
+              >
+            </li>
+            <li>
+              <a href="#" class="flex items-center justify-center gap-[20px]"
+                ><img src="./img/location.svg" alt="" />Санкт-Петербург и ЛО</a
+              >
+            </li>
+          </ul>
         </div>
-       
-    </div>
-</header>
- 
-<main style="background-image: url(./img/back.svg);" class="bg-no-repeat bg-cover bg-center min-h-screen ">
-    <div class="container1">
-        <div class="flex items-center justify-between pt-[150px] max-sm:flex-col">
-<div>
-    <img src="./img/logo.svg" alt="">
-    <h1 class="font-[400] text-[40px] text-[#fff] leading-none pb-[50px] pt-[20px] max-sm:text-[32px]">Благоустройство <br>
-и  озеленение участков
- </h1>
- <button class="w-[339px] h-[60px] rounded-[5px] border-2 border-solid border-[#ff7e35] bg-[rgba(255,126,53,0.53)] text-[#ffdf9e] font-[300] text-[24px]">Оставить заявку</button>
-</div>
-<div class="flex flex-col items-center justify-center gap-[20px] max-sm:flex-row max-sm:pt-[20px]">
-    <img src="./img/inst.svg" alt="">
-    <img src="./img/whatsapp.svg" alt="">
-    <img src="./img/email.svg" alt="">
-</div></div>
-    </div>
-</main>
+      </div>
+    </header>
 
-    <script src="main.js" ></script>
-</body>
+    <main
+      style="background-image: url(./img/back.svg)"
+      class="bg-no-repeat bg-cover bg-center min-h-screen"
+    >
+      <div class="container1">
+        <div
+          class="flex items-center justify-between pt-[150px] max-sm:flex-col"
+        >
+          <div>
+            <img src="./img/logo.svg" alt="" />
+            <h1
+              class="font-[400] text-[40px] text-[#fff] leading-none pb-[50px] pt-[20px] max-sm:text-[32px]"
+            >
+              Благоустройство <br />
+              и озеленение участков
+            </h1>
+            <button
+              class="w-[339px] h-[60px] rounded-[5px] border-2 border-solid border-[#ff7e35] bg-[rgba(255,126,53,0.53)] text-[#ffdf9e] font-[300] text-[24px]"
+            >
+              Оставить заявку
+            </button>
+          </div>
+          <div
+            class="flex flex-col items-center justify-center gap-[20px] max-sm:flex-row max-sm:pt-[20px]"
+          >
+            <img src="./img/inst.svg" alt="" />
+            <img src="./img/whatsapp.svg" alt="" />
+            <img src="./img/email.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="w-[900px] h-[122px] rounded-[5px] bg-[rgba(33,26,21,0.87)] font-[300] text-[14px] text-[#ffdf9e] flex items-center justify-around gap-[100px] mt-[100px] ml-[250px] max-xl:hidden"
+        >
+          <div class="flex flex-col items-center justify-center">
+            <img src="./img/b1.svg" alt="" />
+            <p>Опыт работы более 10 лет</p>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <img src="./img/b2.svg" alt="" />
+            <p>Гарантия на растения</p>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <img src="./img/b3.svg" alt="" />
+            <p>Лучшие питомники</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section
+      class="my-[50px] bg-no-repeat"
+      style="background-image: url(./img/tree2.svg)"
+    >
+      <div class="container1">
+        <div
+          class="text-[#ffdf9e] flex flex-col items-center justify-center gap-[50px]"
+        >
+          <img src="./img/tree.svg" alt="" />
+          <div class="w-[80%] h-auto p-[20px] bg-[rgba(87,82,73,0.98)]">
+            <h1 class="font-[400] text-[18px]">О КОМПАНИИ</h1>
+            <p class="font-[400] text-[14px] pt-[20px]">
+              Relief Image - компания по уходу за садом и ландшафтом. Более 10
+              лет мы занимаемся благоустройством загородных участков, также
+              имеем порядка 60 готовых работ в Ленинградской области и
+              Санкт-Петербурге. К нам обращаются и доверяют уже более 20
+              постоянных клиентов за помощью по благоустройству и уходу
+              участков. Наша компания отличается КАЧЕСТВОМ выполненных работ,
+              ГАРАНТИЕЙ на растения, ЛУЧШИМИ питомниками для вашего участка и
+              разработкой проекта ПОД КЛЮЧ. Обратившись к нашим специалистам, вы
+              всегда будете чувствовать, как мы с большим вниманием относимся к
+              вашим предпочтениям. Одной из ключевых задач нашей компании
+              является то, что бы клиент всегда оставался доволен и наслаждался
+              выполненной работой. Если вас интерисовали именно эти критерии при
+              подборе спициалистов, то вы попали в нужные руки!
+            </p>
+          </div>
+          <div>
+            <div class="flex items-center justify-between gap-[50px]">
+              <h1 class="font-[500] text-[20px] text-[#34642c]">
+                НАШИ ПРОЕКТЫ
+              </h1>
+              <img src="./img/tree3.svg" alt="" class="max-xl:hidden" />
+            </div>
+            <div class="flex items-center justify-center max-lg:flex-wrap">
+              <div><img src="./img/house1.svg" alt="" /></div>
+              <div class="flex flex-col items-center justify-center">
+                <img src="./img/house2.svg" alt="" />
+                <img src="./img/house3.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      style="background-image: url(./img/bgr.svg)"
+      class="bg-no-repeat bg-cover bg-center"
+    >
+      <div class="container1">
+        <div
+          class="p-[50px] border-solid border-[rgba(0,0,0,0.25)] flex flex-col items-center justify-center gap-[30px]"
+        >
+          <div class="flex items-center justify-between gap-[30px]">
+            <h1 class="font-[400] text-[20px] text-[#ffdf9e]">УХОД ЗА САДОМ</h1>
+            <img src="./img/tree4.svg" alt="" class="max-xl:hidden" />
+          </div>
+          <div class="w-[80%] h-auto bg-[rgba(57,54,47,0.8)] p-[20px]">
+            <p class="text-[300] text-[14px] text-[#ffdf9e]">
+              Каждый участок требует постоянный профессиональный уход, чтобы
+              поддерживать ту красоту, которую планировал ландшафтный дизайнер.
+              Это подразумевает большой комплекс работ, требующих много времени.
+              Доверьтесь нашим опытным садоводам! И мы гарантируем качество
+              работ, здоровый сад, а самое главное ваше сэкономленное время.
+            </p>
+          </div>
+          <div class="w-[80%] h-[auto] py-[50px] px-[30px] bg-[#fff]">
+            <div
+              class="flex items-center justify-center gap-[50px] max-lg:flex-wrap"
+            >
+              <div>
+                <ul
+                  class="flex flex-col items-center justify-center gap-[30px]"
+                >
+                  <li
+                    class="w-[318px] h-[64px] rounded-[5px] shadow-[0_0_5px_0_rgba(0,0,0,0.25)] border-solid border-[rgba(0,0,0,0.2)] flex items-center justify-center font-[400] text-[18px] hover:border-[orange] hover:border-[4px] hover:bg-[rgba(255,239,227,0.83)]"
+                  >
+                    <a href="#">СЕЗОННЫЕ ВЫЕЗДЫ</a>
+                  </li>
+                  <li
+                    class="w-[318px] h-[64px] rounded-[5px] shadow-[0_0_5px_0_rgba(0,0,0,0.25)] border-solid border-[rgba(0,0,0,0.2)] flex items-center justify-center font-[400] text-[18px] hover:border-[orange] hover:border-[4px] hover:bg-[rgba(255,239,227,0.83)]"
+                  >
+                    <a href="#">ОСЕНЬ</a>
+                  </li>
+                  <li
+                    class="w-[318px] h-[64px] rounded-[5px] shadow-[0_0_5px_0_rgba(0,0,0,0.25)] border-solid border-[rgba(0,0,0,0.2)] flex items-center justify-center font-[400] text-[18px] hover:border-[orange] hover:border-[4px] hover:bg-[rgba(255,239,227,0.83)]"
+                  >
+                    <a href="#">ВЕСНА</a>
+                  </li>
+                  <li
+                    class="w-[318px] h-[64px] rounded-[5px] shadow-[0_0_5px_0_rgba(0,0,0,0.25)] border-solid border-[rgba(0,0,0,0.2)] flex items-center justify-center font-[400] text-[18px] hover:border-[orange] hover:border-[4px] hover:bg-[rgba(255,239,227,0.83)]"
+                  >
+                    <a href="#">ЛЕТО</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <ul
+                  class="text-[14px] font-[500] flex flex-col items-start justify-center gap-[5px]"
+                >
+                  <li class="flex items-center justify-center gap-[20px]">
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="1.9683"
+                        cy="2.55205"
+                        rx="1.9683"
+                        ry="1.92534"
+                        fill="#FF7E35"
+                      />
+                    </svg>
+                    Уход за цветниками (прополка, обрезка сухого, рыхление)
+                  </li>
+
+                  <li class="flex items-center justify-center gap-[20px]">
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="1.9683"
+                        cy="2.55205"
+                        rx="1.9683"
+                        ry="1.92534"
+                        fill="#FF7E35"
+                      /></svg
+                    >Формовочная обрезка (фигурная стрижка, стрижка изгородей,
+                    производитсяпо мере роста)
+                  </li>
+
+                  <li class="flex items-center justify-center gap-[20px]">
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="1.9683"
+                        cy="2.55205"
+                        rx="1.9683"
+                        ry="1.92534"
+                        fill="#FF7E35"
+                      /></svg
+                    >Стрижка газона
+                  </li>
+
+                  <li class="flex items-center justify-center gap-[20px]">
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="1.9683"
+                        cy="2.55205"
+                        rx="1.9683"
+                        ry="1.92534"
+                        fill="#FF7E35"
+                      /></svg
+                    >Обработка газона от сорняков (первая обработка производится
+                    после первого коса газона)
+                  </li>
+
+                  <li class="flex items-center justify-center gap-[20px]">
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="1.9683"
+                        cy="2.55205"
+                        rx="1.9683"
+                        ry="1.92534"
+                        fill="#FF7E35"
+                      /></svg
+                    >Внесение удобрений ( по газону производится 1 раз в 2
+                    недели, по цветниками в <br />зависимости от растений)
+                  </li>
+
+                  <li class="flex items-center justify-center gap-[20px]">
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="1.9683"
+                        cy="2.55205"
+                        rx="1.9683"
+                        ry="1.92534"
+                        fill="#FF7E35"
+                      /></svg
+                    >Обработка от вредителей и болезней (производится с
+                    интервалом в 10-14 дней)
+                  </li>
+                  <li class="flex items-center justify-center gap-[20px]">
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="1.9683"
+                        cy="2.55205"
+                        rx="1.9683"
+                        ry="1.92534"
+                        fill="#FF7E35"
+                      /></svg
+                    >Обработка мощения от сорняков (производится 1 раз в месяц)
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="font-[300] text-[14px] pt-[30px]">
+              *Выезд и консультация специалиста оплачивается отдельно.
+              <br />
+              *Отдельно оплачивается: вывоз мусора, химия, удобрение, материалы
+              для дополнительных работ ( например: земля, мульча, бордюрная
+              <br />
+              лента и т.д.)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-[50px]">
+      <div class="container1">
+        <div class="flex flex-col items-center justify-center gap-[30px]">
+          <div class="flex items-center justify-around">
+            <h1 class="font-[400] text-[20px] text-[#34642c]">ЛАНДШАФТ</h1>
+            <img src="./img/tree3.svg" alt="" class="max-xl:hidden" />
+          </div>
+          <div
+            class="w-[80%] h-auto bg-[rgba(57,54,47,0.8)] p-[20px] my-[30px]"
+          >
+            <p class="text-[300] text-[14px] text-[#ffdf9e]">
+              Ландшафтный дизайн помогает обеспечить красивый вид вокруг вашего
+              дома. Ведь участок должен выглядеть эстетично, иметь логическую
+              структуру и радовать глаз. Чтобы избежать лишних разочарований,
+              необходимо грамотно продумать и разработать дизайн-проект. Обладая
+              теоретическими знаниями и практическим опытом, мы воплотим в
+              реальность все ваши пожелания.
+            </p>
+          </div>
+          <div class="flex flex-col items-center justify-center gap-[20px]">
+            <div
+              class="flex items-center justify-center gap-[20px] max-lg:flex-col"
+            >
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">
+                  1. Ландшафтное проектирование участка
+                </p>
+                <img src="./img/land1.svg" alt="" />
+              </div>
+
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">2. Подготовка участка</p>
+                <img src="./img/land2.svg" alt="" />
+              </div>
+
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">
+                  3. Создание дренажной системы
+                </p>
+                <img src="./img/land3.svg" alt="" />
+              </div>
+            </div>
+
+            <div
+              class="flex items-center justify-center gap-[20px] max-lg:flex-col"
+            >
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">
+                  4. Устройство дорожного покрытия
+                </p>
+                <img src="./img/land4.svg" alt="" />
+              </div>
+
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">
+                  5. Альпийские горки, рокарии, альпинарии
+                </p>
+                <img src="./img/land5.svg" alt="" />
+              </div>
+
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">
+                  6. Устройство ручьев, водоемов, каскадов
+                </p>
+                <img src="./img/land6.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-center gap-[20px] max-lg:flex-col"
+            >
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">7. Строительство, маф</p>
+                <img src="./img/land7.svg" alt="" />
+              </div>
+
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">8. Подпорные стенки</p>
+                <img src="./img/land8.svg" alt="" />
+              </div>
+
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">9. Посадка растений</p>
+                <img src="./img/land9.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <div class="flex items-start justify-center flex-col gap-[10px]">
+                <p class="font-[400] text-[14px]">10. Устройство газона</p>
+                <img src="./img/land10.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-[50px]">
+      <div class="container1">
+        <div class="flex flex-col items-center justify-center">
+          <img src="./img/bottomline.svg" alt="" />
+          <h1 class="font-[400] text-[20px] text-[#34642c]">ОТЗЫВЫ</h1>
+        </div>
+
+        <div class="flex items-start justify-evenly my-[50px] max-lg:flex-wrap">
+          <div
+            class="w-[340px] flex items-center justify-center flex-col gap-[20px]"
+          >
+            <img src="./img/circle.svg" alt="" />
+            <h2>Михаил</h2>
+            <p class="text-[#34642c] text-[14px]">
+              К компании relief image обратился в конце 2019 года, и летом 2020
+              все работы были закончены. Мы с семьей живём в пос. Правдинское
+              озеро, хотели наш пустой и неровный участок превратить в уютный
+              зеленый сад, с хорошим газоном, огородом и создать цветники у
+              дома. Работой довольны, команда Надежды теперь занимается
+              обслуживанием нашего участка.
+            </p>
+          </div>
+
+          <div
+            class="w-[340px] flex items-center justify-center flex-col gap-[20px]"
+          >
+            <img src="./img/circle.svg" alt="" />
+            <h2>Наталья</h2>
+            <p class="text-[#34642c] text-[14px]">
+             В 2016 году понадобились специалисты по уходу за садом. С командой Надежды наш сад зацвёл новыми красками. В том же году мы купили дом в Репино. Хотели создать уютный уголок с зоной отдыха. И уже тогда мы понимали, кому доверить воплощение наших желаний. Работой довольны, все предпочтения были учтены. По сегодняшний день мы доверяем наш сад только специалистам relief image.
+
+            </p>
+          </div>
+
+          <div
+            class="w-[340px] flex items-center justify-center flex-col gap-[20px]"
+          >
+            <img src="./img/circle.svg" alt="" />
+            <h2>Ольга</h2>
+            <p class="text-[#34642c] text-[14px]">
+             Наш участок находится в Петергофе. К Надежде обратились в 2016 году. Была необходимость в уходе за садом, растения болели, а также, было много насекомых.
+Работой команды довольны. Вот уже 4 года доверяем наш сад специалистам!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
 </html>
